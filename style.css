@@ -1,0 +1,64 @@
+:root {
+  --slate-300: #d5e1ef;
+  --white: #ffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  /* define todas as caixas com tamanho total ate a borda */
+  box-sizing: border-box;
+}
+
+.outfit-bold {
+  font-family: "Outfit Bold", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+html {
+  height: 100%;
+}
+body {
+  background-color: var(--slate-300);
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.container {
+  padding: 16px;
+  padding-block-end: 40px;
+  background-color: var(--white);
+  width: 320px;
+  border-radius: 20px;
+}
+img {
+  vertical-align: middle;
+  height: 288px;
+  width: 288px;
+  border-radius: 10px;
+}
+.textos {
+    padding-inline:16px;
+  margin-top: 24px;
+  font-size: 22px;
+  font-family: "Outfit";
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  color: #1F314F;
+  text-align: center;
+}
+.textos .p2 {
+  margin-top: 16px;
+  font-size: 15px;
+  font-family: "Outfit";
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  color: #68778D;
+
+}
